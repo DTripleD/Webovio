@@ -27,7 +27,6 @@ p {
 
 img {
     display: block;
-    max-width: 100%;
     height: auto;
 }
 
@@ -246,4 +245,74 @@ img {
 .founder__img{
     box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
     border-radius: 50%;
+}
+
+.project__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.33;
+
+    color: #4D533C;
+}
+
+.project__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+
+    color: rgba(33, 56, 66, 0.6);   
+}
+
+.project__item{
+    display: flex;
+    gap: 165px;
+}
+
+
+.project__photo{
+    border-radius: 50%;
+    box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+}
+
+.project__review{
+    position: relative;
+}
+
+.project__comment{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+
+    color: #4D533C;
+
+
+}
+
+.project__wrapper{
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+
+    width: 453px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+}
+
+
+
+.project__img{
+    display: flex;
+}
+
+.project__list{
+    display: flex;
+    gap: 165px;
+    flex-direction: column;
+}
+
+.project__item:nth-child(even){
+    flex-direction: row-reverse;
 }
