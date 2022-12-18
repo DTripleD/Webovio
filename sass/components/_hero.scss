@@ -1,0 +1,38 @@
+.hero {
+    background-image: url(../img/Bitmap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.hero-dsc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+
+    color: #FFFFFF;
+
+    margin-bottom: 22px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.23;
+
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+}
+
+.hero-title+.hero-dsc {
+    margin-bottom: 45px;
+}
+
+.hero__wrapper {
+    width: 616px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}

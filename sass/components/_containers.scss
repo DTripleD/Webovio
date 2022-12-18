@@ -1,0 +1,27 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1109px;
+}
+
+.container__founder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__container {
+    padding-bottom: 211px;
+    padding-top: 188px;
+}
+
+.container__header {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}

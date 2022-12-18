@@ -1,0 +1,28 @@
+.clients {
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(50%);
+    gap: 66px;
+    padding-left: 65px;
+    align-items: center;
+    width: 1276px;
+    padding-right: 166px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.clients img {
+    width: 156px;
+    height: 113px;
+}
+
+.card__wrapper {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
